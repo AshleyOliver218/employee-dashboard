@@ -1,38 +1,116 @@
 .App {
-  text-align: center;
+display: flex;
+justify-content: center; 
+align-items: flex-start;
+border: 3px solid black;
+margin:0;
+padding:1%;
+}
+ .display{
+display: flex;
+justify-content: center;
+align-items: center;
+
+height:90%;
+width:90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+border: 2px solid lightblue;
+text-align: center;
+
+width: 95%;
+height: 8%;
+margin:0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-page{
+display: flex;
+align-items: center;
+flex-direction: column;
+border: 2px solid yellow;
+width:50vw;
+height: 98vh;
+contain: content;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.List{
+list-style-type: none;
+width:95%;
+height:85%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin:0;
+padding: 0;
+border: 2px solid purple;
+}
+.List-Item{
+border: 2px solid magenta;
+display: flex;
+align-items: center;
+width: 98%;
+height: 15.5%;
+margin:0;
+padding:1%;
+
+}
+input{
+border: 2px solid green;
+width:95%;
+height: 20px;
+text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.name-title{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+margin-left:10%;
+}
+.employee-page{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border: 2px solid brown;
+width:50vw;
+height: 98vh;
+margin:0;
+padding:0;
+}
+aside{
+border: 2px solid gray;
+border-radius: 2%;
+width:95%;
+margin-top:6%;
+}
+.img-titl-name{
+display: flex;
+border-bottom: 2px solid gray;
+padding: 1%;
+}
+.name-titl{
+display: flex;
+flex-direction: column;
+margin-left:5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 1%;
+border-bottom: 2px solid gray;
+}
+
+.email{
+border: 0;
+}
+
+h4{
+margin: 0;
 }
